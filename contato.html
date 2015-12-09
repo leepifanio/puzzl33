@@ -1,67 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Contato</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-<header>
+	<head>
+		<title> Get in touch </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</header>
-<div class="row">
-<div role="main" class="col-md-8">
-<h2>Contato</h2>
-<form action="#" method="post">
-<div class="form-group">
-<label for="inputName">Seu Nome</label>
-<input type="text" class="form-control" id="inputName">
-</div>
-<div class="form-group">
-<label for="inputEmail">Seu E-mail</label>
-<input type="email" class="form-control" id="inputEmail">
-</div>
-<div class="form-group">
-<label for="inputSubject">Assunto</label>
-<input type="text" class="form-control" id="inputSubject">
-</div>
-<div class="form-group">
-<label for="textMessage">Mensagem</label>
-<textarea id="textMessage" class="form-control" rows="10"></textarea>
-</div>
-<button type="submit" class="btn btn-default">Enviar</button>
-</form>
-</div>
-<aside role="complementary" class="col-md-4">
-<div id="widget-about" class="panel panel-default">
-<div class="panel-body">
-<h4>Info</h4>
-<p>Etiam et mollis neque. Nulla tempus enim bibendum
-â€¦
-</p>
-</div>
-</div>
-<div id="widget-links" class="panel panel-default">
-<div class="panel-body">
-<h4>Links</h4>
-<ul class="list-unstyled">
-<li><a href="#">Github</a></li>
-<li><a href="#">Twitter</a></li>
-<li><a href="#">Facebook</a></li>
-</ul>
-</div>
-</div>
-</aside>
-</div> <!-- /.row -->
-<hr />
-<footer>
-<p class="text-muted">&copy; 2015 - Web Dev Academy</p>
-</footer>
-</div> <!-- /.container -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
+	<!--Botstrap-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<script src="https://apis.google.com/js/platform.js"></script>
+	
+		<ul class="nav nav-tabs navbar-fixed-top">
+		  <li><a href="index.html" class="branco"> Home </a></li>
+		  <li><a href="sobre.html" class="branco"> About </a></li>
+		  <li><a href="galeria.html" class="branco"> Photos </a></li>
+		  <li class="active"><a href="contato.html" class="branco"> Get in touch </a></li>
+		</ul>
+		<div class="container">
+			<header>
+				<h1> Agradeço sua visita...</h1>
+			</header>
+			
+			<p> ... Preencha os dados para continuar em contato. Ao enviar os dados voc&ecirc; receber&aacute; uma mensagem de retorno. </p>
+			
+			<div class="row">
+				<div role="main" class="col-md-8">
+				
+				<form action="dados.php" method="post">
+					<div class="form-group">
+						<label for="imputName"> Nome </label>
+						<input type="text"  placeholder="Seu Nome" class="form-control" name="campo_nome" id="imputName">
+					</div>
+					
+					<div class="form-group">
+						<label for="imputEmail"> E-mail </label>
+						<input type="email" placeholder="Seu e-mail" name="campo_email" class="form-control" id="imputEmail"> </imput>
+					</div>
+
+					<div class="form-group">
+						<label for="imputSubject"> Assunto </label>
+						<input type="text" placeholder="Seu Assunto" name="campo_assunto" class="form-control" id="imputSubject">
+					</div>
+					
+					<div class="form-group">
+						<label for="textMessage"> Mensagem </label>
+						<input type="textMessage" placeholder="Sua mensagem" name="campo_mensagem" class="form-control" rows="10"> </textarea>
+					</div>
+					
+					<button typw="submit" class="btn btn-defalt"> Enviar </button><!--  Main -->
+	<!-- row -->
+		
+		<hr />
+		<footer>
+			<p class="text-muted">&copy; 2015 - web Dev Academyc </p>
+		</footer><!-- container -->
+		
+		<script src="js/jquery.js"> </script>
+		<script src="js/bootstrap.min.js"> </script>
+		<script src="https://apis.google.com/js/platform.js"></script>
+	</body>
 </html>

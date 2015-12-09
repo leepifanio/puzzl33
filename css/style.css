@@ -1,6 +1,21 @@
-/*
-* style.css
-*/
+/* Style */
 body {
-padding-top: 50px;
+	padding-top:50px;
+}
+
+.nav {
+	padding-left:40px;
+	background-color:#000000;
+}
+
+.branco {
+	color:#000000;
+}
+
+#responder {
+	color:#ff1d8d;
+	text-decoration:none;
+	margin-left:150px;
+	margin-top:40px;
+	
 }
