@@ -21,5 +21,6 @@
 	<body>
 		<br />
 		<hr />
+		<a id="estilomenu" href="contato.html"> Voltar </a>
 	</body>
 </html>
